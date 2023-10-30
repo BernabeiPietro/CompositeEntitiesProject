@@ -1,0 +1,21 @@
+{
+
+    "id": "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd65k9",
+    "type": "ManufacturingMachineModel",
+    "name": "Auger Machine",
+    "description": "Machine to digger",
+    "brandName": "QuickT",
+    "version": "v1",
+    "root": "false",
+    "machineModelParent": "urn:ngsi-ld:MachineModel:4146335f-839f-4ff9-a575-6b4e6232b734",
+    "machineModelChildren":
+        "urn:ngsi-ld:MachineModel:a74fcf24-58fa-11e8-ae3e-df1abd78f83f",
+   
+    "processDescription": "Industrial Drilling",
+    "operationModel":{
+        "type": "Property",
+        "value": 
+            {"Drill": "urn:ngsi-ld:MachineOperationModel:27577638-bd8a-4732-b418-fc8b949a0c90"}
+        
+    }
+}

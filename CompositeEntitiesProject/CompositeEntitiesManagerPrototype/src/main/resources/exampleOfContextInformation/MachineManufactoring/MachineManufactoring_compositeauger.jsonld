@@ -1,0 +1,32 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/smart-data-models/dataModel.ManufacturingMachine/master/context.jsonld"
+    ],
+    "assetIdentifier": "ID12350",
+    "description": "Composite Auger",
+    "firstUsedAt": "2017-05-04T10:18:16Z",
+    "id": "urn:ngsi-ld:Machine:9166c528-9c98-4579-a5d3-8068aea5d9b0",
+    "installedAt": "2017-05-04T10:18:16Z",
+    "location": {
+        "coordinates": [
+            -104.99404,
+            39.75621
+        ],
+        "type": "Point"
+    },
+    "machineModel": "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd6490",
+    "manufacturedAt": "2017-05-04T10:18:16Z",
+    "power": 4.4,
+    "advancementSpeed": 10,
+    "supplierName": "ACME NorthEast Inc.",
+    "machineComponent": {
+        "value":{
+           "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd65k9": "urn:ngsi-ld:Machine:9166c528-9c98-4579-a5d3-8068aea5d7k0",
+           "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd64t9": "urn:ngsi-ld:Machine:9166c528-9c98-4579-a5d3-8068aea5d6c0",
+           "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd69c3": "urn:ngsi-ld:Machine:9166c528-9c98-4579-a5d3-8068aea5dq90"
+        },
+    "type":"Property"
+    },		 
+    "type": "ManufacturingMachine",
+    "voltage": 220
+}

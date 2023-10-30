@@ -1,0 +1,17 @@
+{
+	"@context": [
+             "https://raw.githubusercontent.com/smart-data-models/dataModel.ManufacturingMachine/master/context.jsonld"
+   ],
+    "description": "Composite Auger",
+    "id": "urn:ngsi-ld:Machine:9166c528-9c98-4579-a5d3-8068aea5d9b0",
+    "machineModel": "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd6490",
+    "machineComponent": {
+        "value":{
+           "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd65k9": "urn:ngsi-ld:Machine:9166c528-9c98-4579-a5d3-8068aea5d7k0",
+           "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd64t9": "urn:ngsi-ld:Machine:9166c528-9c98-4579-a5d3-8068aea5d6c0",
+           "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd69c3": "urn:ngsi-ld:Machine:9166c528-9c98-4579-a5d3-8068aea5dq90"
+        },
+    "type":"Property"
+    },		 
+    "type": "ManufacturingMachine"
+}

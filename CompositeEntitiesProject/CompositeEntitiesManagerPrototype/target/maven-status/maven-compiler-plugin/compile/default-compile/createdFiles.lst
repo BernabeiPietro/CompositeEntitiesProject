@@ -1,0 +1,4 @@
+it/exame/rest/controller/RestController.class
+it/exame/rest/client/ClientRest.class
+it/exame/service/URIGenerator.class
+it/exame/service/Service.class

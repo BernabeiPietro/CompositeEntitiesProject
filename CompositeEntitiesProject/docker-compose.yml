@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgis/postgis
+    ports:
+      - "5432"
+    environment:
+      POSTGRES_USER: ngb
+      POSTGRES_PASSWORD: ngb
+      POSTGRES_DB: ngb
+  scorpio:
+    image: scorpiobroker/all-in-one-runner:ubuntu-latest
+    environment:
+      DBHOST: postgres
+    ports:
+      - "9090:9090"
+    depends_on:
+      - postgres
+  prototype:
+    build:
+      context: ./CompositeEntitiesManagerPrototype
+      dockerfile: Dockerfile
+    ports:
+    - 8080:8080
+    depends_on:
+    - scorpio
+  machine:
+    restart: always
+    build:
+      context: ./MachineEmulator
+      dockerfile: Dockerfile
+    ports:
+    - 8090:8090
+    depends_on:
+    - scorpio

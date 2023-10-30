@@ -1,0 +1,25 @@
+{
+  
+    "assetIdentifier": "ID12350",
+    "countryOfManufacture": "FR",
+    "dataProvider": "https://provider.example.com",
+    "description": "Frame Installer - Installatore della struttura",
+    "firmwareVersion": "A.10",
+    "firstUsedAt": "2017-05-04T10:18:16Z",
+    "hardwareVersion": "5.1",
+    "id": "urn:ngsi-ld:Machine:9166c528-9c98-4579-a5d3-8068aea5d6c0",
+    "installedAt": "2017-05-04T10:18:16Z",
+    "location": {
+        "coordinates": [
+            -104.99404,
+            39.75621
+        ],
+        "type": "Point"
+    },
+    "machineModel": "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd64t9",
+    "manufacturedAt": "2017-05-04T10:18:16Z",
+    "power": 9.0,
+    "supplierName": "ACME NorthEast Inc.",
+    "type": "ManufacturingMachine",
+    "voltage": 220
+}

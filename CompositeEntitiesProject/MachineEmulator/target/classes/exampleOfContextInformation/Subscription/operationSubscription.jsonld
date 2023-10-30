@@ -1,0 +1,13 @@
+{
+  "id": "urn:subscription:1",
+  "type": "Subscription",
+  "entities": [{
+                "type": "ManufacturingMachineOperation"
+  }],
+  "notification": {
+        "endpoint": {
+                "uri": "http://ptsv2.com/t/30xad-1596541146/post",
+                "accept": "application/json"
+        }
+  }
+ }
