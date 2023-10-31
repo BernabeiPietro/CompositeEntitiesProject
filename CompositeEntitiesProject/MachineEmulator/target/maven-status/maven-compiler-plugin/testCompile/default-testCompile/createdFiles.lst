@@ -1,7 +1,0 @@
-it/exame/scorpiobroker/ScorpioBrokerServer.class
-it/exame/rest/client/ClientRestTest.class
-it/exame/rest/client/WireMockTestServer.class
-it/exame/rest/client/ClientRestScorpioIT.class
-it/exame/service/ServiceTest.class
-it/exame/service/ServiceClientIT.class
-it/exame/service/URIGeneratorTest.class

@@ -1,9 +1,0 @@
-[
-	{
-		"@context":["https://smartdatamodels.org/context.jsonld","https://raw.githubusercontent.com/GSMADeveloper/NGSI-LD-Entities/master/examples/Machine-context.jsonld","https://raw.githubusercontent.com/smart-data-models/dataModel.ManufacturingMachine/master/context.jsonld"],
-	    "description": "Auger - Trivella",
-	    "id": "urn:ngsi-ld:Machine:9166c528-9c98-4579-a5d3-8068aea5d7k0",
-	    "machineModel": "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd65k9",
-	    "type": "ManufacturingMachine"
-	}
-]

@@ -1,8 +1,0 @@
-{
-    "id": "urn:ngsi-ld:MachineOperationModel:27577638-bd8a-4732-b418-fc8b949a0c90",
-    "type": "ManufacturingMachineOperationModel",
-    "machineModel": "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd65k9",
-    "operationType": "process",
-    "description": "Drill",
-    "operation": "Drill"
-}
