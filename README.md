@@ -1,7 +1,7 @@
 # CompositeEntitiesProject
 A university exam project about the usage of the FIWARE Framework and ScorpioBroker 
 ## For more information
-For more information see the [report]()
+For more information see the [report](Progetto_SWAM-DigitalTwin-FiWare.pdf)
 ## How to run
 ```
 cd CompositeEntitiesProject/CompositeEntitesProject
