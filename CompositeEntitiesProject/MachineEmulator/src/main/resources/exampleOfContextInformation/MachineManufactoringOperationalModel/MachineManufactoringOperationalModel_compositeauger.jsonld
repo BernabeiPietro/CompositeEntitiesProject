@@ -1,0 +1,18 @@
+{
+    "id": "urn:ngsi-ld:MachineOperationModel:27577638-bd8a-4732-b418-fc8b949a0t90",
+    "type": "ManufacturingMachineOperationModel",
+    "machineModel": "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd6490",
+    "operationType": "process",
+    "description": "Forward",
+    "operation": "Forward",
+    "operationComposite": {
+        "type": "Property",
+        "value": 
+            {
+            "Forward": "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd69c3", 
+            "Install": "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd64t9",
+            "Drill": "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd65k9"
+            }
+        
+    }
+}

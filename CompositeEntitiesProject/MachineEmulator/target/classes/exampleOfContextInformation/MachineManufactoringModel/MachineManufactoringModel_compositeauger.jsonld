@@ -1,0 +1,26 @@
+{
+    "id": "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd6490",
+    "type": "ManufacturingMachineModel",
+    "name": "Auger Composite Machine",
+    "description": "A composite machine",
+    "brandName": "Transformer",
+    "version": "v1",
+    "root": "false",
+    "machineModelParent": "urn:ngsi-ld:MachineModel:4146335f-839f-4ff9-a575-6b4e6232b734",
+    "processDescription": "A composite machine that drill to construct tunnel",
+    "componentMachineModel": {
+    "type":"Relationship",
+    "object":
+    [
+        "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd65k9",
+        "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd64t9",
+        "urn:ngsi-ld:MachineModel:00b42701-43e1-482d-aa7a-e2956cfd69c3"
+    ]
+    },
+   "operationModel": {
+        "type": "Property",
+        "value": [
+           { "Forward": "urn:ngsi-ld:MachineOperationModel:27577638-bd8a-4732-b418-fc8b949a0t90"}
+        ]
+    }
+}
