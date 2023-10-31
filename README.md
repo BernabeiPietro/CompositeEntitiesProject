@@ -39,11 +39,18 @@ http://172.17.0.1:8080/machine/
 ```
 POST
 http://172.17.0.1:8080/machine/{id}/operation
-Body:
-{
-  
+Body (optional):
 
-
+  {
+    "operationType": "process",
+    "description": "Forward",
+    "result": "ok",
+    "plannedStartAt": "2016-08-22T10:18:16Z",
+    "plannedEndAt": "2016-08-28T10:18:16Z",
+    "status": "finished",
+    "startedAt": "2016-08-22T10:18:16Z",
+    "endedAt": "2016-08-28T10:18:16Z",
+    "commandSequence": "Forward"
 }
 ```
 
